@@ -12,8 +12,7 @@ altura= float(input("Dame la altura: "))
 profundidad= float(input("Dame la profundidad: "))
 y= arearec (base,altura)
 x= volumenrec (y, profundidad)
-print("El volumen del prisma es: ")
-print (x)
+print("El volumen del prisma es: ",x)
     
     pass
 
