@@ -13,7 +13,7 @@ def main():
     z= ntcpli(pliegos)
     x= ntcplu (plumones)
     if z<x:
-        print ("El número máximo de tarjetas que se pueden hacer es: ",z)
+        print ("El número máximo de tarjetas que se pueden hacer es:",z)
     elif x<z:
         print ("El número máximo de tarjetas que se pueden hacer es:",x)
     pass
