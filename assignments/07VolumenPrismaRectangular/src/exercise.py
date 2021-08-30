@@ -13,9 +13,7 @@ def main():
     profundidad= float(input("Dame la profundidad: "))
     y= arearec (base,altura)
     x= volumenrec (y, profundidad)
-    print("El volumen del prisma es: ",x)
-    
-main()
+    print("El volumen del prisma es:",x)
     
     pass
 
